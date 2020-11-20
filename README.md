@@ -6,11 +6,11 @@ __<ins>Specifics</ins>__
 
 1) The script `decorator.py` presents a simple decorator example.
 
-2) In the file `decorators_signatures.py` we have an example of decorators with different arguments.
+2) In the file `decorators_signatures.py` we have an example of __decorators with different arguments__.
 
-3) The scripts `metadata_not_preserved.py` and `metadata_preserved.py` show an issue regarding metadata preservation when using decorators and how to solve it respectively.
+3) The scripts `metadata_not_preserved.py` and `metadata_preserved.py` show an issue regarding __metadata preservation__ when using decorators and how to solve it respectively.
 
-4) In the `speed_test_decorator.py` file we build a decorator that tests the speed of a function (meaning it calculates how long its execution takes).
+4) In the `speed_test_decorator.py` file we build a decorator that tests the __speed of a function__ (meaning it calculates how long its execution takes).
 
 5) The script `show_args_kwargs.py` presents a decorator that before invoking the function passed to it, prints a tuple with the positional arguments and a dictionary with the keyword arguments.
 
@@ -24,7 +24,7 @@ __<ins>Specifics</ins>__
 
 10) In the `authorized.py` file we define a decorator which allows a function passed into it to be invoked only if a keyword argument named "role" that has the value "admin" is passed into the latter.
 
-11) The `decorator_with_argument.py` file shows how to create a decorator that accepts an argument. This decorator is used to ensure that the first argument passed into a function has a specific value.
+11) The `decorator_with_argument.py` file shows how to create a __decorator that accepts an argument__. This decorator is used to ensure that the first argument passed into a function has a specific value.
 
 12) The `enforce_arg_types.py` script creates a decorator that accepts specific argument types (as arguments) and ensures that only these types can be passed into a function. In case different ones are given it converts them to the expected ones if possible.
 
